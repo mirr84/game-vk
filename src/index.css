@@ -3,3 +3,15 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.btn,
+.list-group-item:first-child, .list-group-item:last-child,
+.card,
+.card-img-top {
+  border-radius: 0px;
+}
+
+.list-group-item, .card-body {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
